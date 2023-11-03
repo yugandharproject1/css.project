@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DSA</title>
+    <link rel="icon" href="placement logo.png">
+    <style>
+        a{
+            margin-right: 30px;
+        }
+        .p1{
+            margin-left: 900px;
+        }
+        header{
+            margin-top: -50%;
+             
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 30px,20%;
+            display: flex;
+            justify-content:space-between ;
+            align-items: center;
+            z-index: 100;
+            margin-top: 40px; 
+        }
+        .nav1 a{
+            font-size: 18px;
+            color: rgb(5, 79, 79);
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 40px;
+            margin-right: 30px;
+            transition: 5s;
+        }
+        .nav1 a:hover{
+            color: rgb(204, 128, 15);
+        }
+        .one{
+            border: 2px solid rgb(96, 89, 71);
+            margin-top: -40px;
+            background-color: #D7E5CA;
+        }
+        .one h2{
+            margin-left: 20px;
+        }
+        .one b{
+            margin-left: 80px;
+            color: #183D3D;
+        }
+        .one h4{
+            margin-left: 40px;
+            color: #900C3F;
+            font-size: 25px;
+
+        }
+        .one p{
+            margin-left: 80px;
+            color: #0a312c;
+        }
+        .one li{
+            margin-left: 60px;
+        }
+    </style>
+</head>
+<body>
+    <p  style="border: 2px solid black; background-color: rgb(180, 197, 206);padding-top: 10px; ">
+        <img src="call logo.png" height="30px" width="30px" alt="image not found" style="margin-left: 20px;"> 08069878321
+        <a class="p1" href="hello@thetapacademy.com"><img src="mail.png" alt="image not found" height="30px" width="30px"></a>
+         <a href="hello@thetapacademy.com" style="text-decoration:none;">hello@thetapacademy.com</a>
+        <a href="https://www.youtube.com/tapacademy"><img src="youtube.jpeg" alt="image not found" height="30px" width="30px"></a>
+        <a href="https://www.instagram.com/tapacademy_online/"><img src="insta.jpeg" alt="image not found" height="30px" width="30px"></a>
+    </p >
+    <header class="header">
+    <a href="index.html"><img src="footer-taplogo.png.webp" alt="image not found"  height="60px" width="150px"></a>
+    <nav class="nav1">
+        <a href="index.html"><B>Home</B></a>
+        <a href="courses.html"><b>Course</b></a>
+        <a href="Student reviews.html"><b>Student Review</b></a>
+        <a href="placement.html"><b>Placements</b></a>
+        <a href="blogs.html"><b>Blogs</b></a>
+        <a href="contact us.html"><b>Contact Us</b></a>
+        <a href="try for free.html" style="border: 2px solid rgb(19, 101, 136);background-color: #94e1e1;">Try For Free</a> <br>
+    </nav>
+</header><br><br><br><br>
+   
+    <div class="one">
+            <img src="What-is-Data-Structure-and-Algorithm.png.webp" alt="not found" height="20%" width="20%" style="margin-left: 38%;margin-top: 20px;">
+        <h2>What is Data Structure and Algorithm</h2>
+    <p>You may already know that computers are used to store and modify massive amounts of data. Data structures are used to efficiently and conveniently arrange and store data.</p>
+    <p>Organizing and storing data in a computer so that it can be accessed and used effectively is known as a data structure. In addition to defining the relationships between data pieces, it offers a means of representing and storing data. Common data structures include trees, stacks, queues, linked lists, arrays, and stacks.</p>
+    <p>Now, an algorithm is a set of guidelines or procedures used to complete a task or solve a problem. To get a certain outcome, algorithms are used to alter data that is stored in data structures. Data in an array or linked list can be sorted using a sorting algorithm, for instance.</p>
+    <p>Data structures and algorithms are closely associated in computer science because an algorithm’s effectiveness frequently depends on the selection of an effective data structure. An algorithm can become more effective and quick with the right data format. For instance, a hash table is a popular data structure for quick data retrieval and searching.</p>
+    <p>It is impossible to emphasize the significance of data structures and algorithms in computer science. Writing effective computer programs requires an understanding of these fundamental ideas, which serve as the cornerstone of software development.</p>
+    <p>For example, suppose you are creating software to look for a specific name in a large client database. Your program’s effectiveness will be influenced by the algorithm and data format you choose. Your software could take a long time to finish the search if you pick a poor data structure or technique. Yet, your program will run more quickly and efficiently if you select an effective data structure and algorithm.</p>
+    <br>
+    <h2>What are Data Structures and types?</h2>
+    <p>Data structures are specific methods for setting up and keeping data in a computer so that it may be accessed, changed, and searched quickly. There are many different kinds of data structures, and each has benefits and drawbacks that vary depending on the objectives of the application.</p>
+    <br>
+    <h4>1. Arrays</h4>
+    <p>Arrays are a type of data structure that keep a group of identically categorised elements in close proximity to one another in memory. Despite having a fixed size, they can be ineffective for dynamic data or big datasets since they require constant-time access to individual items via an index.</p>
+    <b>Pros:</b>
+    <br>
+    <ol>
+        <li>Index-based constant-time access to individual elements</li>
+        <li>For tiny, fixed-size data sets, effective</li>
+        <li>Simple to use and understand</li>
+    </ol>
+    <br>
+    <b>Cons:</b>
+    <br>
+    <ol>
+        <li>Unform size</li>
+        <li>Ineffective for large or dynamic data set</li>
+    </ol>
+    <br>
+    <b>Examples:</b>
+    <br>
+    <p>>  A list of contact details</p>
+    <p>>  A list of test results</p>
+    <br>
+    <h4>2. Linked Lists</h4>
+    <p>Linked lists are a type of data structure that are made up of a series of nodes, each of which contains an element and a reference to the node after it in the list. They are distinguished by their speedy insert and delete of elements, but because of their non-contiguous memory allocation, their traversal may be slower than arrays.</p>
+    <br>
+    <b>Pros:</b>
+    <ol>
+        <li>Effective element addition and deletion</li>
+        <li>Varying size</li>
+        <li>Memory-efficient</li>
+    </ol>
+    <br>
+    <b>Cons:</b>
+    <br>
+    <ol>
+        <li>Traversing more slowly than arrays</li>
+        <li>Less effective for gaining access to specific elements</li>
+    </ol>
+    <br>
+    <b>Examples:</b>
+    <br>
+    <p>>  A musical playlist</p>
+    <p>>  Books listed</p>
+    <br>
+    <h4>3. Stacks and Queues</h4>
+    <p>Data structures used for handling a group of components include stacks and queues. The LIFO (last-in, first-out) ordering of stacks distinguishes them from queues, which are distinguished by the FIFO (first-in, first-out) ordering.</p>
+    <br>
+    <b>Pros:</b>
+    <br>
+    <ol>
+        <li>Easy to implement and comprehend</li>
+        <li>Effective element addition and deletion</li>
+    </ol>
+    <br>
+    <b>Cons:</b>
+    <br>
+    <ol>
+        <li>Limited access to certain features</li>
+        <li>Ineffective for sorting and searching</li>
+    </ol>
+    <br>
+    <b>Examples</b>
+    <br>
+    <p>>  In text editors, stacks can be utilized for the undo/redo capability.</p>
+    <p>>  In a printer queue, queues can be used to manage print jobs.</p>
+    <br>
+    </div>
+    </body>
+</html>
